@@ -7,7 +7,8 @@ PushNotification.configure({
   onNotification: function (notification) {
     console.log("NOTIFICATION:", notification);
   },
-  requestPermissions: Platform.OS === 'ios'
+  // requestPermissions: Platform.OS === 'ios'
+  requestPermissions: true
 })
 
 AppRegistry.registerComponent(appName, () => App);
