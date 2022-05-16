@@ -1,10 +1,8 @@
-import { View, Text } from 'react-native'
 import React from 'react'
+import NotifScreen from './src/screens/NotifScreen'
 
 export default function App() {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <NotifScreen />
   )
 }
